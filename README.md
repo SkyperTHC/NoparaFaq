@@ -12,7 +12,7 @@ Change the network in your wallet file from mainnet to testnet. This will result
 
 #### Step By Step
 
-Open your wallet in a text editor. (`File`/`Open`/`Wallets Folder`)
+Open your wallet configuration file `Config.json` in a text editor. (`File`/`Open`/`Wallets Folder`)
 
 Change the value of the `Network` field to `TestNet`.
 
@@ -24,4 +24,4 @@ To this:
 
 ![](https://i.imgur.com/kHkKnC7.png)
 
-Finally load your wallet. Wasabi will think that the wallet was loaded in the `TestNet` last time, so it will think it does not have a wallet cache built for the `Main` network, so it will clear the cache and build it again.
+Finally load your wallet. Wasabi will think that the wallet was loaded in the `TestNet` last time, so it will think it does not have a wallet cache built for the `Main` network, so it will clear the cache and build it again. Thereafter exit Wasabi and change the value back to `Main` and start Wasabi again.
